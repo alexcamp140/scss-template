@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: var(--font-family);
@@ -71,6 +72,11 @@ select {
 
 .flex-fill {
   flex: 1 1 auto;
+}
+
+.flex-wrap {
+  flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
+  justify-content: space-between; /* Espacement horizontal entre les cartes */
 }
 
 .justify-content-center {
@@ -395,10 +401,25 @@ input:invalid {
   color: var(--text-color);
 }
 
+#card1-container {
+  max-width: 80%;
+  margin: auto;
+}
 #card1-container .card1 {
-  width: 100px;
-  height: 200px;
-  background-color: var(--primary);
+  width: 150px;
+  height: 300px;
+  background-color: var(--gray-2);
+  border: 1px solid var(--gray-1);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px var(--gray-2);
+  padding: 10px;
+  margin: 10px;
+}
+#card1-container .card1 .card1-p {
+  font: 1rem sans-serif;
+}
+#card1-container .card1 .card1-title {
+  font: 1.2rem sans-serif;
 }
 
 /*# sourceMappingURL=output.css.map */

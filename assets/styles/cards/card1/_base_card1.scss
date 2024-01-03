@@ -1,9 +1,22 @@
 
 
 #card1-container{
+    max-width: 80%;
+    margin:auto;
     .card1{
-        width: 100px;
-        height: 200px;
-        background-color: var(--primary);
+        width: 150px;
+        height: 300px;
+        background-color: var(--gray-2);
+        border: 1px solid var(--gray-1);
+        border-radius: 5px;
+        box-shadow: 10px 5px 5px var(--gray-2);
+        padding: 10px;
+        margin:10px;
+     .card1-p{
+        font: 1rem sans-serif;
+     }
+     .card1-title{
+        font: 1.2rem sans-serif;
+     }
     }
 }
