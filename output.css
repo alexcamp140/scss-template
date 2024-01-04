@@ -402,12 +402,16 @@ input:invalid {
 }
 
 #card1-container {
-  max-width: 80%;
-  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 #card1-container .card1 {
-  width: 150px;
-  height: 300px;
+  width: 200px;
+  min-height: 200px;
+  max-height: 400px;
   background-color: var(--gray-2);
   border: 1px solid var(--gray-1);
   border-radius: 5px;
@@ -417,9 +421,11 @@ input:invalid {
 }
 #card1-container .card1 .card1-p {
   font: 1rem sans-serif;
+  text-align: justify;
 }
 #card1-container .card1 .card1-title {
   font: 1.2rem sans-serif;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=output.css.map */
