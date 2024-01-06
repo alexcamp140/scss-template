@@ -1,0 +1,54 @@
+.btn1{
+    padding: 8px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.2s opacity;
+    &:hover{
+        opacity:0.6;
+    }
+    a{
+        text-decoration:none;
+        color:white;
+    }
+}
+
+.btn-icon{
+    padding: 8px 5px;
+    cursor:pointer;
+    transition:0.2s opacity;
+    &:hover{
+        opacity:0.6;
+    }
+	background: none;
+	color: white;
+	border: none;
+	padding: 0;
+	outline: inherit;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary-border);
+}
+
+
+.btn-reverse-primary{
+    background-color: white;
+    color: var(--primary);
+    border: 2px solid var(--primary-border);
+}
+
+.btn-danger{
+    background-color: var(--danger);
+    color: white;
+    border: 1px solid var(--border-danger);
+}
+
+
+.btn-reverse-danger{
+    background-color: white;
+    color: var(--danger);
+    border: 2px solid var(--border-danger);
+}
