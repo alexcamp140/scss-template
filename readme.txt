@@ -26,3 +26,12 @@ Ensure the `<link>` tag in your `index.html` targets the output CSS file, like s
         sass --watch assets/styles/index.scss:output.css
 
     Remember to replace assets/styles/index.scss with the path to your main SCSS file, and output.css with your desired output CSS file path.
+
+**Style**
+   You can find many style for cards, buttons, menus, paragraph, ...
+
+
+**Icons**
+   In thisd template, you'll find icons. I use personnaly "font awesome". So you can use Font Awesome CDN to use this part.
+
+

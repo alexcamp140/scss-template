@@ -1,9 +1,9 @@
 .btn1{
-    padding: 8px 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius:20px;
+    padding: 5px 8px;
+    border-radius:15px;
     cursor:pointer;
     transition:0.2s opacity;
+    margin:10px;
     &:hover{
         opacity:0.6;
     }
@@ -13,18 +13,18 @@
     }
 }
 
+.btn1-font-style{
+    font-family:var(--font-family);
+    font-size: 1rem;
+}
+
 .btn-icon{
-    padding: 8px 5px;
-    cursor:pointer;
-    transition:0.2s opacity;
-    &:hover{
-        opacity:0.6;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    i{
+        font-size: 0.8rem;
     }
-	background: none;
-	color: white;
-	border: none;
-	padding: 0;
-	outline: inherit;
 }
 
 .btn-primary{

@@ -177,18 +177,8 @@ select {
   margin-top: 30px;
 }
 
-.container {
-  max-width: 2400px;
-  margin: auto;
-  width: 100%;
-}
-
-.calc {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
+.w-100 {
+  width: 100px;
 }
 
 .b1 {
@@ -408,11 +398,11 @@ input:invalid {
 }
 
 .btn1 {
-  padding: 8px 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 20px;
+  padding: 5px 8px;
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.2s opacity;
+  margin: 10px;
 }
 .btn1:hover {
   opacity: 0.6;
@@ -422,18 +412,18 @@ input:invalid {
   color: white;
 }
 
-.btn-icon {
-  padding: 8px 5px;
-  cursor: pointer;
-  transition: 0.2s opacity;
-  background: none;
-  color: white;
-  border: none;
-  padding: 0;
-  outline: inherit;
+.btn1-font-style {
+  font-family: var(--font-family);
+  font-size: 1rem;
 }
-.btn-icon:hover {
-  opacity: 0.6;
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+.btn-icon i {
+  font-size: 0.8rem;
 }
 
 .btn-primary {
