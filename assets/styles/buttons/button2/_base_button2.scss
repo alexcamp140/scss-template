@@ -1,5 +1,6 @@
 .btn2{
-    display: flex;
+    display: inline-flex;
+    overflow: hidden;
     align-items: center;
     padding: 5px 8px;
     border-radius:25px;
@@ -19,6 +20,23 @@
     font-family:var(--font-family);
     font-size: 1rem;
 }
+
+.btn2-reverse-primary{
+
+    background-color: white;
+    border: 1px solid var(--primary);
+}
+
+.btn2-icon-back{
+    background-color: green; /* Fond vert */
+    color: white; /* Icône et texte en blanc */
+    width: 33.33%; /* Largeur de 1/3 */
+    display: flex; /* Flexbox pour centrer l'icône */
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    padding: 10px; /* Espace intérieur */
+}
+
 
 .btn-icon{
     display: flex;
@@ -61,3 +79,33 @@
     color: var(--danger);
     border: 2px solid var(--border-danger);
 }
+
+
+.custom-button {
+    display: inline-flex; /* Alignement des éléments côte à côte */
+    border-radius: 10px; /* Bords arrondis */
+    border: none; /* Pas de bordure */
+    font-size: 16px; /* Taille du texte */
+    cursor: pointer; /* Curseur en forme de pointeur */
+    overflow: hidden; /* Cache les débordements */
+  }
+  
+  .icon-part {
+    background-color: green; /* Fond vert */
+    color: white; /* Icône et texte en blanc */
+    width: 33.33%; /* Largeur de 1/3 */
+    display: flex; /* Flexbox pour centrer l'icône */
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    padding: 10px; /* Espace intérieur */
+  }
+  
+  .btn2-text {
+    background-color: white; /* Fond blanc */
+    color: black; /* Texte en noir */
+    width: 66.67%; /* Largeur de 2/3 */
+    display: flex; /* Flexbox pour centrer le texte */
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+    padding: 10px; /* Espace intérieur */
+  }
