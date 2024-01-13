@@ -47,6 +47,7 @@
         text-decoration:none;
         color:white;
     }
+
     .btn3-icon-back{
         display: flex;
         align-items: center;
@@ -70,5 +71,21 @@
     border-radius: 20px 0 0 20px; /* Rounded corner on the left side */
     font-size: 14px;
     border:1px solid var(--primary);
+    }
+    .reverse-color-text{
+        background-color: white !important;
+        color: var(--primary) !important;
+    }
+    .reverse-color-icon-back{
+        background-color: var(--primary) !important;
+        color:white !important;
+    }
+    .btn3-text-danger{
+        border:1px solid var(--danger);
+        color: var(--danger)!important;
+    }
+    .btn3-back-danger{
+        background-color: var(--danger) !important;
+        border:1px solid var(--danger);
     }
 }
