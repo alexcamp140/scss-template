@@ -36,7 +36,6 @@
     border: none;
     border-radius: 20px;
     color: white;
-
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
     overflow: hidden; /* Keeps the child elements within the rounded corners */
@@ -63,14 +62,14 @@
     }
     .btn3-text{
       display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 10px 20px;
-    background-color: var(--primary); /* Replace with the left side color */
-    border-radius: 20px 0 0 20px; /* Rounded corner on the left side */
-    font-size: 14px;
-    border:1px solid var(--primary);
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 10px 20px;
+        background-color: var(--primary); /* Replace with the left side color */
+        border-radius: 20px 0 0 20px; /* Rounded corner on the left side */
+        font-size: 14px;
+        border:1px solid var(--primary);
     }
     .reverse-color-text{
         background-color: white !important;
