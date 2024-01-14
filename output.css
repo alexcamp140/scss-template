@@ -107,6 +107,11 @@ select {
   padding: 30px;
 }
 
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .m-5 {
   margin: 5px;
 }
@@ -170,6 +175,11 @@ select {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.my-10 {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .my-30 {
@@ -395,6 +405,38 @@ input:invalid {
 #card2-container .card2 .card2-title {
   font: 1.2rem sans-serif;
   margin-bottom: 2rem;
+}
+
+#card3-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#card3-container .card3 {
+  width: 200px;
+  min-height: 200px;
+  max-height: 400px;
+  background-color: var(--gray-2);
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px var(--gray-2);
+  padding: 10px;
+  margin: 10px;
+}
+#card3-container .card3 img {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px var(--gray-2);
+}
+#card3-container .card3 .card3-p {
+  font: 1rem sans-serif;
+  text-align: justify;
+}
+#card3-container .card3 .card3-title {
+  text-align: center;
+  font: 1.2rem sans-serif;
+  color: var(--primary);
 }
 
 .btn1 {
