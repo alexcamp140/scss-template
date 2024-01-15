@@ -1,0 +1,22 @@
+nav{
+    ul{
+        display:flex;
+        flex-direction: row;
+        li{
+            margin:5px;
+            text-align: center;
+            font-weight: 300;
+
+        }
+        li a{
+            color: var(--gray-1);
+            text-decoration:none;
+        }
+        li a:hover{
+            color: white;
+            background-color: var(--primary);
+            cursor: pointer;
+            
+        }
+    }
+}
