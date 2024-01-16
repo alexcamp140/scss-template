@@ -1,3 +1,5 @@
+@use '../../mixins' as mixin;
+
 nav{
     ul{
         display:flex;
@@ -11,12 +13,31 @@ nav{
         li a{
             color: var(--gray-1);
             text-decoration:none;
+            padding: 5px;;
         }
         li a:hover{
             color: white;
             background-color: var(--primary);
             cursor: pointer;
+            padding:5px;
+            transition: background-color 0.5s ease;
             
         }
     }
+    
+
 }
+
+.burger-icon {
+    display: none; // caché par défaut
+  
+    @include mixin.xs {
+      display: block; 
+    }
+  }
+  
+  nav ul {
+    @include mixin.xs {
+      display: none; // le menu principal est caché sur les petits écrans
+    }
+  }
