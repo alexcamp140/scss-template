@@ -35,3 +35,11 @@ Ensure the `<link>` tag in your `index.html` targets the output CSS file, like s
    In thisd template, you'll find icons. I use personnaly "font awesome". So you can use Font Awesome CDN to use this part.
 
 
+**Button**
+**Card**
+**Menu**
+**Form**
+
+form1.html present a basic identification form1
+form2.html present a basic form style
+form3.html : As soon as possible. Explain forms with reactjs/formik/yup. 
